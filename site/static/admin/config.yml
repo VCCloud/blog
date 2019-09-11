@@ -19,7 +19,4 @@ collections: # A list of collections the CMS should be able to edit
         label: "Tags"
         widget: select
         multiple: true
-        create: true
-        selectFrom:
-          - collection: posts
-            field: tags
+        options: ["Design", "UX", "Development", "Self-help", "Tutorial", "Frontend", "Backend"]
