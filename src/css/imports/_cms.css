@@ -1,9 +1,9 @@
 .cms {
 
-	/* Headings */
-	& h1, & h2, & h3, & h4, & h5, & h6 {
-		font-weight: var(--bold-font-weight);
-		line-height: 1.25;
+    /* Headings */
+    & h1, & h2, & h3, & h4, & h5, & h6 {
+        font-weight: var(--bold-font-weight);
+        line-height: 1.25;
     margin-bottom: var(--spacing-small);
   }
 
@@ -27,52 +27,52 @@
     font-size: .875rem;
   }
 
-	/* Images */
-	& img {
-		display: block;
-		margin-bottom: var(--spacing-medium);
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 100%;
-	}
+    /* Images */
+    & img {
+        display: block;
+        margin-bottom: var(--spacing-medium);
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+    }
 
-	/* Links */
-	& a {
-		color: var(--primary);
-		transition: var(--hover-transition);
-		&:hover {
-			background-color: var(--highlight);
-			color: var(--black);
-		}
-	}
+    /* Links */
+    & a {
+        color: var(--primary);
+        transition: var(--hover-transition);
+        &:hover {
+            background-color: var(--highlight);
+            color: var(--black);
+        }
+    }
 
-	/* Lists */
-	& ul, & ol, & li {
-		position: relative;
-	}
+    /* Lists */
+    & ul, & ol, & li {
+        position: relative;
+    }
 
-	& ul, & ol {
-		margin-bottom: var(--spacing-medium);
-	}
+    & ul, & ol {
+        margin-bottom: var(--spacing-medium);
+    }
 
-	& ul ul, & ol ol {
-		padding-left: var(--spacing-small);
-	}
+    & ul ul, & ol ol {
+        padding-left: var(--spacing-small);
+    }
 
-	& ul {
-		margin-left: 1.33rem;
-		& >li:before {
-			content: '✱';
-			left: -1.33rem;
-			position: absolute;
-			color: var(--primary);
-		}
-	}
+    & ul {
+        margin-left: 1.33rem;
+        & >li:before {
+            content: '✱';
+            left: -1.33rem;
+            position: absolute;
+            color: var(--primary);
+        }
+    }
 
-	& ol {
-		list-style: none;
-		margin-left: var(--spacing-medium);
-		counter-reset: i 0;
+    & ol {
+        list-style: none;
+        margin-left: var(--spacing-medium);
+        counter-reset: i 0;
     & >li:before {
       font-weight: 800;
       left: var(--spacing-medium);
@@ -83,7 +83,7 @@
       counter-increment: i;
       color: var(--primary);
     }
-	}
+    }
 
   /* Blockquotes */
   & blockquote {

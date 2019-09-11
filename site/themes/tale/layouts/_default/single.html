@@ -1,27 +1,35 @@
 {{ define "main" }}
 
 <main>
-	<div class="post">
-		{{ partial "single/post-info.html" . }}
-		{{ partial "single/title.html" . }}
+    <div class="post">
+        {{ partial "single/post-info.html" . }}
+        {{ partial "single/title.html" . }}
 
-		{{ partial "single/header.html" . }}
+        {{ partial "single/header.html" . }}
 
-		{{ .Content }}
+        {{ if isset .Params "tags" }}
+        <p style="text-align: center;">
+            {{ range  $key := .Param "tags" }}
+            <a class="tags-item" href="/tags/{{ $key }}">{{ $key }}</a>
+            {{ end }}
+        </p>
+        {{ end }}
 
-		{{ partial "single/footer.html" . }}
-	</div>
+        {{ .Content }}
 
-	<div class="pagination">
-		{{- if .PrevPage }}
-		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
-		{{- end }}
-		{{- if .NextPage }}
-		<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
-		{{- end }}
+        {{ partial "single/footer.html" . }}
+    </div>
 
-		<a href="#" class="top">Top</a>
-	</div>
+    <div class="pagination">
+        {{- if .PrevPage }}
+        <a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+        {{- end }}
+        {{- if .NextPage }}
+        <a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+        {{- end }}
+
+        <a href="#" class="top">Top</a>
+    </div>
 </main>
 
 {{ end }}

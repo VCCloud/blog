@@ -1,5 +1,11 @@
-<!-- 
+<!--
 This is a placeholder partial for the post footer. Create a file called
 layouts/partials/single/footer.html in your own site to overwrite this
 placeholder.
 -->
+<div style="margin-top: 20px; text-align: right;">
+{{ $url := printf "%s" .Permalink | absLangURL }}
+Share on:
+<a target="_blank" href="https://facebook.com/sharer.php?u={{ $url }}">Facebook</a>,
+<a target="_blank" href="https://twitter.com/intent/tweet?text={{ .Title }}&url={{ $url }}">Twitter</a>
+</div>

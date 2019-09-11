@@ -9,3 +9,11 @@
         </p>
     </div>
 </a>
+{{ if isset .Params "tags" }}
+<p>
+    <strong>Tags:</strong>
+    {{ range  $key := .Param "tags" }}
+    <a class="tags-item" href="/tags/{{ $key }}">{{ $key }}</a>
+    {{ end }}
+</p>
+{{ end }}

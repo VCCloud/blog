@@ -3,6 +3,9 @@ title: Trở thành lập trình viên tốt hơn
 date: 2019-09-11T02:02:50.000Z
 description: 'Trở thành lập trình viên giỏi mới, chứ để tốt hơn thì dễ hơn nhiều.'
 image: /img/amazing-creative-workspaces-office-spaces-3-5.jpg
+tags:
+- Development
+- Self-help
 ---
 Bài viết này cho những người mới bắt đầu tập tành code, đã biết code 1 ít.
 Các tip ngắn dưới đây sẽ phần nào tăng productivity của bạn trong công việc, hoặc code để giải trí.
@@ -45,7 +48,7 @@ Bạn nên nắm được Trending của những thứ liên quan đến công v
 
 ## Luyện tập không ngừng
 
-Tục ngữ Việt Nam có câu _Trăm hay không bằng tay quen_, luôn thực hành khi bạn có thể. 
+Tục ngữ Việt Nam có câu _Trăm hay không bằng tay quen_, luôn thực hành khi bạn có thể.
 
 Hãy tự đặt ra các đầu bài cho mình để xử lý bằng code. Chả hạn Code nhắc mùng 1, ngày dằm, báo chưa chấm công,.. tất cả mọi thứ xung quanh bạn đều có thể hoá thành code.
 
