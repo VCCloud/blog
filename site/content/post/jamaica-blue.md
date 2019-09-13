@@ -3,10 +3,8 @@ title: Để có bài viết đẹp
 date: 2017-01-04T15:04:10.000Z
 description: Các format mà blog này hỗ trợ
 tags:
-- Tutorial
+  - Tutorial
 ---
-
-
 Kiểu chữ:
 
 **Chữ đậm**
@@ -32,14 +30,10 @@ def print_ok():
     print ("OK")
 ```
 
-
-
 List:
 
 * Đây là dòng thứ 1
 * Còn đây là dòng thứ 2
-
-
 
 Chèn ảnh:
 
