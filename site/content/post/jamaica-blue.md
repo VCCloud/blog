@@ -1,5 +1,5 @@
 ---
-title: Để có bài viết đẹp1
+title: Để có bài viết đẹp
 date: 2017-01-04T15:04:10.000Z
 description: Các format mà blog này hỗ trợ
 tags:
