@@ -75,13 +75,18 @@ Việc sử dụng lint hay gặp phải các vấn đề sau:
 * Sử dụng không thống nhất linter. Trong 1 dự án, có những người sử dụng pep8 có người sử dụng flake8, người lại dùng pylint, việc này sẽ gây ra conflict vì các linter sẽ bắt lỗi chồng chéo lên nhau. VD: 2 linter sẽ bắt indent code ở 2 kiểu khác nhau.
 
 
+```
+from Tkinter import (
+    Tk, Frame, Button, Entry, Canvas, Text,
+    LEFT, DISABLED, NORMAL, RIDGE, END,
+)
+```
+
+Hoặc
 
 ```
-  from Tkinter import (
-      Tk, Frame, Button, Entry, Canvas, Text,
-      LEFT, DISABLED, NORMAL, RIDGE, END,
-  )  # Or  from Tkinter import (Tk, Frame, Button, Entry, Canvas, Text,
-                       LEFT, DISABLED, NORMAL, RIDGE, END)
+from Tkinter import (Tk, Frame, Button, Entry, Canvas, Text,
+                     LEFT, DISABLED, NORMAL, RIDGE, END)
 ```
 
 Do vậy, trong cùng 1 dự án, team nên thống nhất việc sử dụng linter với nhau.
