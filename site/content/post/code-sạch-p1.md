@@ -6,6 +6,8 @@ image: /img/20191011_152847.jpg
 tags:
   - Development
 ---
+![discuss #1](/img/20191011_152847.jpg "discuss #1")
+
 Sau buổi Discuss đầu tiên với chủ đề `Code sạch`, đánh giá dựa trên tính hiện tại chúng tôi đưa ra các vấn đề sau:
 
 # **Đặt tên biến, tên hàm không có ý nghĩa**
